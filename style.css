@@ -1,7 +1,18 @@
 h1 {
     color: brown;
+    margin: 50px;
+    margin-top: 100px;
+    padding: 200px;
+    
 }
 
+h2 {
+    background-color: #a12c3a;
+    color: #10319F;
+}
+body{
+    background-color: #A12B9E;
+}
 * {
     border: solid;
 }
