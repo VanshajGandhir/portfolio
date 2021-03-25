@@ -1,8 +1,7 @@
 h1 {
     color: brown;
-    margin: 50px;
-    margin-top: 100px;
-    padding: 200px;
+    margin: 10px;  
+    padding: 20px;
     
 }
 
@@ -13,9 +12,9 @@ h2 {
 body{
     background-color: #A12B9E;
 }
-* {
-    border: solid;
-}
+/** {
+   border: solid;
+}*/
 .header{
    background-color: aqua; 
    display: flex ;
@@ -30,4 +29,34 @@ body{
 .footer{
     display: flex;
     justify-content:flex-end;
+}
+a:link{
+color: #11B314;
+}
+a:visited{
+color: #A3B2D4;
+}
+.menu{
+    margin-right: 30px;
+}
+.menu a {
+    margin-left: 40px ;
+}
+.item p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        opacity: 0 ;
+}
+.item{
+
+    position: relative;
+
+}
+.item:hover p{
+    opacity: 1 ;
+}
+.item img{
+    opacity: 0.33;
 }
